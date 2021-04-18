@@ -31,6 +31,9 @@ import codecs
 import os
 import platform
 
+def test_trigger():
+    assert score == tests
+    
 def human_readable_input_string(input_string):
     human_readable_string = input_string.replace("\n", ', ')
     if (human_readable_string[-2:] == ', '):
