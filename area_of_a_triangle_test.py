@@ -34,7 +34,7 @@ import platform
 def test_deferred():
     run_tests()
     
-def test_direct
+def test_direct():
     assert score == tests
     
 def human_readable_input_string(input_string):
