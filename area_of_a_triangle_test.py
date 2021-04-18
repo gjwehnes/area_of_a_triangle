@@ -31,9 +31,11 @@ import codecs
 import os
 import platform
 
-def test_trigger():
+def test_deferred():
     run_tests()
-    #assert score == tests
+    
+def test_direct
+    assert score == tests
     
 def human_readable_input_string(input_string):
     human_readable_string = input_string.replace("\n", ', ')
