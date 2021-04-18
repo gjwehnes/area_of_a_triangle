@@ -32,7 +32,7 @@ import os
 import platform
 
 def test_trigger():
-    pass
+    run_tests()
     #assert score == tests
     
 def human_readable_input_string(input_string):
