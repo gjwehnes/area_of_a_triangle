@@ -147,8 +147,7 @@ def display_score():
         assert True
     else:
         color_print('Overall: FAIL', "COMMENT")
-        if (operating_system == 'Linux'):
-            assert True #False
+        assert False
 
 ########################################################################
 
