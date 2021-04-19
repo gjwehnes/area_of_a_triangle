@@ -33,7 +33,8 @@ import platform
 
 def test_direct():
     run_tests()
-    assert score == tests
+    display_score()
+    assert (score / 2) == (tests / 2)
     
 def human_readable_input_string(input_string):
     human_readable_string = input_string.replace("\n", ', ')
