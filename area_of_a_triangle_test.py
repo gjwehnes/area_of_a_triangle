@@ -18,7 +18,7 @@ def run_tests():
     run_console_test('5.0\n2\n', 'The area is 5.0')
     
 ################################################################################
-##2020-03-26
+##2021-04-18
     
 import sys
 import subprocess
@@ -34,7 +34,7 @@ import platform
 def test_direct():
     run_tests()
     display_score()
-    assert (score / 2) == (tests / 2)
+    assert (score) == (tests)  #? score == tests
     
 def human_readable_input_string(input_string):
     human_readable_string = input_string.replace("\n", ', ')
