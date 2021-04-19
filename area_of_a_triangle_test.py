@@ -30,11 +30,6 @@ import re
 import codecs
 import os
 import platform
-
-def test_direct():
-    run_tests()
-    display_score()
-    assert (score) == (tests)  #? score == tests
     
 def human_readable_input_string(input_string):
     human_readable_string = input_string.replace("\n", ', ')
@@ -169,3 +164,9 @@ if (operating_system != 'Windows'):
 if __name__ == "__main__":
     run_tests()
     display_score()
+
+#allow for test discovery by pytest
+def test_direct():
+    run_tests()
+    display_score()
+    assert (score) == (tests)  #? score == tests
