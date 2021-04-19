@@ -31,10 +31,8 @@ import codecs
 import os
 import platform
 
-def test_deferred():
-    run_tests()
-    
 def test_direct():
+    run_tests()
     assert score == tests
     
 def human_readable_input_string(input_string):
@@ -146,8 +144,6 @@ def display_score():
         color_print('Overall: PASS', "STRING")
     else:
         color_print('Overall: FAIL', "COMMENT")
-    assert score == tests
-
 
 ########################################################################
 
