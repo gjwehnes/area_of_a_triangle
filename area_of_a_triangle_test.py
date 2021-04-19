@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
 #allow for test discovery by pytest
 @pytest
-def run_test():
+def test():
     run_tests()
     display_score()
     assert (score) == (tests)  #? score == tests
