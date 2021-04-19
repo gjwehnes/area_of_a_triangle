@@ -4,4 +4,4 @@ height = float(input("What is the height of the triangle?:"))
 
 area = base * height / 2
 
-print("The area is 100.0")
+print("The area is ", area)
