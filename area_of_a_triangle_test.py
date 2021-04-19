@@ -166,5 +166,6 @@ if (operating_system != 'Windows' and operating_system != 'Linux'):
 if (operating_system != 'Windows'):
     NEWLINE = '\n'
 
-run_tests()
-display_score()
+if __name__ == "__main__":
+    run_tests()
+    display_score()
