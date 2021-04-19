@@ -144,10 +144,10 @@ def display_score():
     color_print("Total score: " + str(score) + " / " + str(tests))
     if (score == tests):
         color_print('Overall: PASS', "STRING")
-        assert True
     else:
         color_print('Overall: FAIL', "COMMENT")
-        assert False
+    assert score == tests
+
 
 ########################################################################
 
